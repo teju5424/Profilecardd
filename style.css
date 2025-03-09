@@ -1,0 +1,56 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+}
+
+.id-card {
+    padding: 30px;
+    text-align: center;
+    width: 280px;
+    background: linear-gradient(to bottom, #7b2cbf, #ff0080); 
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.id-card h2 {
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.details {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2); 
+    color: white;
+    text-align: left;
+    width: 100%;
+}
+
+.details h4 {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: space-between;
+}
